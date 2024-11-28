@@ -1,31 +1,38 @@
 {
-  "id": "rounded-distance-for-measured-templates",
-  "name": "rounded-distance-for-measured-templates",
-  "title": "Rounded Distance for Measured Templates",
-  "description": "Rounds the distance of your measured templates the nearest multiple while you are drawing them. By default it rounds to nearest grid space.",
-  "url": "https://github.com/cdverrett94/FVTT-rounded-distance-for-measured-templates",
-  "bugs": "https://github.com/cdverrett94/FVTT-rounded-distance-for-measured-templates/issues",
-  "version": "1.5.4",
-  "esmodules": [
-    "scripts/rounded-distance-for-measured-templates.js"
-  ],
-  "relationships": {
-    "requires": [{
-      "id": "lib-wrapper",
-      "type": "module"
-    }]
-  },
-  "compatibility" : {
-    "minimum": "10",
-    "verified": "10.277"
-  },
-  "minimumCoreVersion": "10",
-  "compatibleCoreVersion": "10.277",
-  "manifest": "https://github.com/cdverrett94/FVTT-rounded-distance-for-measured-templates/releases/download/1.5.3/module.json",
-  "download": "https://github.com/cdverrett94/FVTT-rounded-distance-for-measured-templates/releases/download/1.5.3/package.zip",
-  "authors": [
-    {
-      "name": "shortyverrett94"
-    }
-  ]
+    "id": "rounded-measurement-templates",
+    "title": "Rounded Measurement Templates",
+    "description": "Round Foundry VTT measurement templates to the nearest size or angle",
+    "url": "https://github.com/AnthonyEdmonds/rounded-measurement-templates",
+    "manifest": "https://raw.githubusercontent.com/AnthonyEdmonds/rounded-measurement-templates/0.0.0/module.json",
+    "download": "https://github.com/AnthonyEdmonds/rounded-measurement-templates/archive/refs/tags/0.0.0.zip",
+    "authors": [
+        {
+            "name": "Anthony Edmonds",
+            "url": "https://github.com/AnthonyEdmonds"
+        },
+        {
+            "name": "cdverrett94",
+            "url": "https://github.com/cdverrett94"
+        },
+        {
+            "name": "threz_",
+            "url": "https://github.com/thre-z"
+        }
+    ],
+    "version": "0.0.0",
+    "compatibility" : {
+        "minimum": "12",
+        "verified": "12"
+    },
+    "relationships": {
+        "requires": [
+            {
+                "id": "lib-wrapper",
+                "type": "module"
+            }
+        ]
+    },
+    "esmodules": [
+        "rounded-measurement-templates.js"
+    ]
 }
