@@ -3,8 +3,8 @@
     "title": "Rounded Measurement Templates",
     "description": "Round Foundry VTT measurement templates to the nearest size or angle",
     "url": "https://github.com/AnthonyEdmonds/rounded-measurement-templates",
-    "manifest": "https://raw.githubusercontent.com/AnthonyEdmonds/rounded-measurement-templates/0.0.0/module.json",
-    "download": "https://github.com/AnthonyEdmonds/rounded-measurement-templates/archive/refs/tags/0.0.0.zip",
+    "manifest": "https://raw.githubusercontent.com/AnthonyEdmonds/rounded-measurement-templates/1.0.0/module.json",
+    "download": "https://github.com/AnthonyEdmonds/rounded-measurement-templates/archive/refs/tags/1.0.0.zip",
     "authors": [
         {
             "name": "Anthony Edmonds",
@@ -19,7 +19,7 @@
             "url": "https://github.com/thre-z"
         }
     ],
-    "version": "0.0.0",
+    "version": "1.0.0",
     "compatibility" : {
         "minimum": "12",
         "verified": "12"
