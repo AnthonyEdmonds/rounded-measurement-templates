@@ -253,14 +253,14 @@ export class RoundedMeasurementTemplates
      */
     static wrap()
     {
-            RoundedMeasurementTemplates.bypass = foundry.canvas.layers.TemplateLayer.prototype._onDragLeftMove;
+        RoundedMeasurementTemplates.bypass = foundry.canvas.layers.TemplateLayer.prototype._onDragLeftMove;
 
-            libWrapper.register(
-                Settings.namespace,
-                'foundry.canvas.layers.TemplateLayer.prototype._onDragLeftMove',
-                RoundedMeasurementTemplates.handle,
-                'OVERRIDE',
-            );
+        libWrapper.register(
+            Settings.namespace,
+            'foundry.canvas.layers.TemplateLayer.prototype._onDragLeftMove',
+            RoundedMeasurementTemplates.handle,
+            'OVERRIDE',
+        );
     }
 
     /**
