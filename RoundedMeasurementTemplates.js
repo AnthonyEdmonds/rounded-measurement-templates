@@ -97,7 +97,7 @@ export class RoundedMeasurementTemplates
     {
         return Math.normalizeDegrees(
             Math.toDegrees(
-                new Ray(origin, destination).angle,
+                new foundry.canvas.geometry.Ray(origin, destination).angle,
             ),
         );
     }
