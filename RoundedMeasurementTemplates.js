@@ -97,7 +97,7 @@ export class RoundedMeasurementTemplates
     {
         return Math.normalizeDegrees(
             Math.toDegrees(
-                new Ray(origin, destination).angle,
+                new foundry.canvas.geometry.Ray(origin, destination).angle,
             ),
         );
     }
@@ -253,11 +253,11 @@ export class RoundedMeasurementTemplates
      */
     static wrap()
     {
-        RoundedMeasurementTemplates.bypass = TemplateLayer.prototype._onDragLeftMove;
+        RoundedMeasurementTemplates.bypass = foundry.canvas.layers.TemplateLayer.prototype._onDragLeftMove;
 
         libWrapper.register(
             Settings.namespace,
-            'TemplateLayer.prototype._onDragLeftMove',
+            'foundry.canvas.layers.TemplateLayer.prototype._onDragLeftMove',
             RoundedMeasurementTemplates.handle,
             'OVERRIDE',
         );
